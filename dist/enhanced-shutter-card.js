@@ -2548,10 +2548,6 @@ class htmlCard{
           ${this.showButtonStop()}
           ${this.showButtonClose()}
         </div>
-        <div class="${ESC_CLASS_BUTTONS}">
-          ${this.showButtonPartial()}
-          ${this.showButtonTilt()}
-        </div>
         ` : html`
         <div class='blankDiv'></div>
       `}
